@@ -42,7 +42,7 @@
 
     <TextView
         android:id="@+id/IMC"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:textColor="@color/md_black_1000"
@@ -50,6 +50,7 @@
         android:fontFamily="monospace"
         android:padding="8dp"
         android:text=""
+        android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/estatus"
         app:layout_constraintStart_toStartOf="@+id/estatus" />
 
@@ -63,6 +64,7 @@
         android:fontFamily="monospace"
         android:padding="8dp"
         android:text=""
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
